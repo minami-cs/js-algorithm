@@ -7,7 +7,6 @@ function solution(priorities, location) {
     // 배열의 맨 앞 요소 추출
     let num = priorities.shift();
 
-    console.log(num);
     // 판별함수인 some()을 이용해서 추출한 배열의 맨 앞 요소보다 중요도가 높은 수가 있는지 판별
     if (priorities.some((priority) => priority > num)) {
       // 배열의 맨 앞 요소보다 중요도 높은 수가 있으면 배열의 맨 앞 요소를 배열 맨 뒤로 보냄
