@@ -1,7 +1,8 @@
 function solution(n, edge) {
   // 최단거리 -> BFS로 풀기
+  let answer = 0;
   const queue = [];
-  const visited = [];
+  const visited = Array.from({ length: n + 1 }, () => false);
 
   return answer;
 }
