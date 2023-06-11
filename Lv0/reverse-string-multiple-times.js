@@ -10,7 +10,7 @@ function solution(my_string, queries) {
     console.log(my_string);
   });
 
-  // return my_string.join("");
+  return my_string;
 }
 
 solution("rermgorpsam", [
